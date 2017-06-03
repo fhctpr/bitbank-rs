@@ -1,6 +1,6 @@
 [package]
 name = "bitbank"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Yamazaki Daisuke"]
 license-file = "LICENSE"
 readme = "README.md"
