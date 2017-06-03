@@ -1,7 +1,10 @@
 [package]
 name = "bitbank"
 version = "0.1.0"
-authors = ["yamazakidaisuke"]
+authors = ["Yamazaki Daisuke"]
+license-file = "LICENSE"
+readme = "README.md"
+description = "API library for bitbank."
 
 [dependencies]
 reqwest="0.6.2"
