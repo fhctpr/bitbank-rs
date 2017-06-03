@@ -142,7 +142,7 @@ impl Client {
         let value: HashMap<String, Value> = serde_json::from_reader(resp).unwrap();
         Ok(value)
     }
-
+    /*
     pub fn cancel_orders(&self,
                          pair: &str,
                          order_ids: Vec<i32>)
@@ -172,7 +172,7 @@ impl Client {
         let value: HashMap<String, Value> = serde_json::from_reader(resp).unwrap();
         Ok(value)
     }
-
+	*/
     pub fn get_active_orders(&self,
                              pair: &str,
                              count: &str,
