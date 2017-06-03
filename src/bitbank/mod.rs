@@ -1,10 +1,3 @@
-extern crate reqwest;
-extern crate serde_json;
-extern crate time;
-extern crate crypto;
-extern crate rustc_serialize;
-extern crate url;
-
 use serde_json::{Value, Error};
 use std::collections::HashMap;
 use crypto::hmac::Hmac;
@@ -34,7 +27,7 @@ impl Iterator for Nonce {
     }
 }
 
-struct Client {
+pub struct Client {
     key: &'static str,
     secret: &'static str,
     public_base: &'static str,
